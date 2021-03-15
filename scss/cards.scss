@@ -1,0 +1,16 @@
+/* Cards and card */
+.cards-wrap {
+    display: flex;
+    min-width: 100%;
+    min-height: 100%;
+    overflow-x: auto;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+
+.card-item {
+    min-width: 100%;
+}
