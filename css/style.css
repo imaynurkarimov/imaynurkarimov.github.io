@@ -1,38 +1,42 @@
 /* General */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/reset\.scss}line{font-family:\000032}}
+html {
+  height: -webkit-fill-available; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/reset\.scss}line{font-family:\000036}}
 body {
   width: 100%;
+  min-height: 100vh;
   min-height: -webkit-fill-available;
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 400; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/reset\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/reset\.scss}line{font-family:\0000318}}
   body:outline {
     color: yellow; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/reset\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/reset\.scss}line{font-family:\0000324}}
 ::selection {
   background: yellow;
   color: black; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/reset\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/reset\.scss}line{font-family:\0000329}}
 body,
 h1, h2, h3, h4, h5, h6,
 p {
   margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/reset\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/reset\.scss}line{font-family:\0000335}}
 *,
 :before,
 :after {
   box-sizing: border-box; }
 
 /* Container */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/reset\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/reset\.scss}line{font-family:\0000342}}
 .container {
   width: 100%;
   max-width: 1200px;
