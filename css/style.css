@@ -18,25 +18,25 @@ body {
   body:outline {
     color: yellow; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/reset\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/reset\.scss}line{font-family:\0000323}}
 ::selection {
   background: yellow;
   color: black; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/reset\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/reset\.scss}line{font-family:\0000328}}
 body,
 h1, h2, h3, h4, h5, h6,
 p {
   margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/reset\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/reset\.scss}line{font-family:\0000334}}
 *,
 :before,
 :after {
   box-sizing: border-box; }
 
 /* Container */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/reset\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/reset\.scss}line{font-family:\0000341}}
 .container {
   width: 100%;
   max-width: 1200px;
@@ -54,7 +54,7 @@ p {
   .cards-wrap::-webkit-scrollbar {
     display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/cards\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/cards\.scss}line{font-family:\0000313}}
 .card-item {
   min-width: 100%; }
 
@@ -66,11 +66,10 @@ p {
   top: 10px;
   left: 0;
   z-index: 2; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/intro\.scss}line{font-family:\0000310}}
-.header__inner {
-  display: flex;
-  justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/intro\.scss}line{font-family:\000039}}
+  .header__inner {
+    display: flex;
+    justify-content: center; }
 
 /* Intro */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/intro\.scss}line{font-family:\0000317}}
@@ -82,19 +81,19 @@ p {
   background: linear-gradient(90deg, #23bad5, #237fd5); }
 
 /* Hello */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/intro\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/intro\.scss}line{font-family:\0000328}}
 .intro__hello,
 .intro__text {
   font-size: 4.5em;
   line-height: 1.2;
   color: #FFF; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/intro\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/intro\.scss}line{font-family:\0000335}}
 .intro__hello {
   margin-bottom: 30px;
   line-height: 1.2; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/intro\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/intro\.scss}line{font-family:\0000340}}
 .intro__text {
   font-size: 2.1em; }
 
@@ -122,20 +121,18 @@ p {
     transition: left .45s linear;
     background-color: #000; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/nav\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/nav\.scss}line{font-family:\0000327}}
 .nav__link {
   font-size: 1.7em;
   color: #FFF;
   text-decoration: none;
   transition: color .2s linear; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/nav\.scss}line{font-family:\0000335}}
-.nav__link:last-child {
-  margin-right: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/nav\.scss}line{font-family:\0000339}}
-.nav__link:hover {
-  color: #000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/nav\.scss}line{font-family:\0000333}}
+  .nav__link:last-child {
+    margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/nav\.scss}line{font-family:\0000337}}
+  .nav__link:hover {
+    color: #000; }
 
 /* Projects */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/projects\.scss}line{font-family:\000032}}
@@ -150,61 +147,59 @@ p {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/projects\.scss}line{font-family:\0000313}}
 .projects__wrap {
-  justify-content: center;
-  display: flex;
-  align-items: center;
   width: 100%;
-  overflow: hidden;
-  margin: 0 auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/projects\.scss}line{font-family:\0000322}}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/projects\.scss}line{font-family:\0000321}}
   .projects__wrap i {
     font-size: 3em;
     color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/projects\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/projects\.scss}line{font-family:\0000325}}
     .projects__wrap i:hover {
       color: yellow;
       cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/projects\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/projects\.scss}line{font-family:\0000330}}
     .projects__wrap i:active {
       color: #c5c50f; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/projects\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/projects\.scss}line{font-family:\0000338}}
 .slider {
   display: flex;
   width: 40%;
-  overflow: hidden;
-  margin: 0 15px; }
-
+  margin: 0 15px;
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/projects\.scss}line{font-family:\0000344}}
+  .slider .sliderOn {
+    display: block; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/projects\.scss}line{font-family:\0000348}}
-.slider__item {
-  width: 100%;
-  display: none;
-  height: 200px;
-  background-color: yellow; }
+  .slider__item {
+    width: 100%;
+    display: none;
+    height: 200px;
+    background-color: yellow; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/projects\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/projects\.scss}line{font-family:\0000356}}
 .slider__item:nth-child(2) {
   background-color: blue; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/projects\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/projects\.scss}line{font-family:\0000360}}
 .slider__item:nth-child(3) {
   background-color: purple; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/projects\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/projects\.scss}line{font-family:\0000364}}
 .slider__item:nth-child(4) {
   background-color: salmon; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/projects\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/projects\.scss}line{font-family:\0000368}}
 .slider__item:nth-child(5) {
   background-color: skyblue; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/projects\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/projects\.scss}line{font-family:\0000372}}
 .slider__item:nth-child(6) {
   background-color: gray; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/projects\.scss}line{font-family:\0000375}}
-.sliderOn {
-  display: block; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\000032}}
 .contacts {
@@ -216,57 +211,55 @@ p {
   background: linear-gradient(90deg, #c023d5, #d52323);
   background-size: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\0000315}}
 .form-wrap {
   padding-top: 50px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\0000319}}
 .form__logos {
   width: 10%;
-  margin: 0 auto 30px;
-  font-size: 30px;
   display: flex;
   justify-content: space-around;
+  margin: 0 auto 30px;
+  font-size: 1.87em;
   color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\0000327}}
   .form__logos a {
     color: #ffff32;
     text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\0000331}}
     .form__logos a:hover {
       color: #fff; }
 
-/* Form */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\0000339}}
 .form {
   width: 100%;
   max-width: 670px;
   margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\0000344}}
+  .form__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\0000343}}
-.form__row {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\0000351}}
 input[type=text],
 input[type=email],
 textarea {
   padding: 15px 20px;
-  font-family: 'Nunito Sans', sans-serif;
-  font-size: .8em;
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
   color: black;
   border: none;
   outline: .1em solid black;
   text-align: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\0000362}}
   input[type=text]:focus,
   input[type=email]:focus,
   textarea:focus {
     background-color: #eceaea; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\0000367}}
 textarea {
   width: 100%;
   max-width: 670px;
@@ -279,37 +272,37 @@ textarea {
   width: 49%;
   border: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\0000380}}
 .form__title {
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\0000384}}
 .feedback__title {
   margin-bottom: 30px;
   font-size: 1.87em;
   font-weight: 600;
   color: #1d1d1d; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\0000391}}
 .feedback__subtitle {
   width: 100%;
   max-width: 560px;
   margin: 0 auto 30px;
-  font-family: 'Nunito Sans';
+  font-family: "Raleway", sans-serif;
   font-weight: 600;
   color: #787878; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\00003100}}
 .btn {
   width: 100%;
   padding: 20px;
   border: none;
   background-color: #ffff32;
   outline: .1em solid black; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\00003107}}
   .btn:active {
     background-color: #cec9c9; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/contacts\.scss}line{font-family:\00003111}}
   .btn:hover {
     cursor: pointer;
     background-color: #cec9c9; }
@@ -327,51 +320,59 @@ textarea {
   .form {
     width: 65%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000317}}
   .form__logos {
     width: 15%; } }
-@media (max-width: 750px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000325}}
+@media (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000324}}
   .intro__hello {
     font-size: 3.2em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000327}}
   .intro__text {
-    font-size: 1.9em; } }
+    font-size: 1.9em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000332}}
+  .slider {
+    width: 60%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000335}}
+  .projects__wrap i {
+    font-size: 2.5em; } }
 @media (max-width: 650px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000342}}
   .nav__link {
     font-size: 1.3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000347}}
   .form__logos {
     width: 20%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000350}}
   .form {
     width: 80%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000353}}
   .btn {
     padding: 15px; } }
 @media (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000360}}
   .intro__hello {
     font-size: 2.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000364}}
   .intro__text {
     font-size: 1.3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000369}}
   .nav {
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000374}}
   .form {
     width: 90%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/aynur\/Desktop\/imaynurkarimov\.github\.io\/scss\/media\.scss}line{font-family:\0000378}}
   .form__logos {
     width: 30%; } }
 

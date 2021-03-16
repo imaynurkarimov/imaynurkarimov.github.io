@@ -11,13 +11,12 @@
 }
 
 .projects__wrap {
-    justify-content: center;
-    display: flex;
-    align-items: center;
     width: 100%;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
-
+    overflow: hidden;
 
     i {
         font-size: 3em;
@@ -32,24 +31,26 @@
             color: rgb(197, 197, 15);
         }
     }
-
 }
 
 
-
+// Slider
 .slider {
     display: flex;
     width: 40%;
-    overflow: hidden;
     margin: 0 15px;
-}
+    overflow: hidden;
+        
+    .sliderOn {
+        display: block;
+    }
 
-
-.slider__item {
-    width: 100%;
-    display: none;
-    height: 200px;
-    background-color: yellow;
+    &__item {
+        width: 100%;
+        display: none;
+        height: 200px;
+        background-color: yellow;        
+    }
 }
 
 .slider__item:nth-child(2) {
@@ -70,8 +71,4 @@
 
 .slider__item:nth-child(6) {
     background-color: gray;
-}
-
-.sliderOn {
-    display: block;
 }

@@ -10,13 +10,21 @@
 	background-size: 100%;
 }
 
+
+// Form Wrap
 .form-wrap {
     padding-top: 50px;
 }
 
-
 .form__logos {
-    & a {
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto 30px;
+    font-size: 1.87em;
+    color: white;
+
+    a {
         color: rgb(255, 255, 50);;
         text-decoration: none;
 
@@ -24,42 +32,35 @@
             color: #fff;
         }
     }
-
-    width: 10%;
-    margin: 0 auto 30px;
-    font-size: 30px;
-    display: flex;
-    justify-content: space-around;
-    color: white;
 }
 
-/* Form */
+
+// Form
 .form {
     width: 100%;
     max-width: 670px;
     margin: 0 auto;
-}
 
-.form__row {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;        
+    }
 }
 
 input[type=text],
 input[type=email],
 textarea {
     padding: 15px 20px;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: .8em;
+    font-family: "Raleway", sans-serif;
+    font-size: 1em;
     color: black;
     border: none;
-    // border: 1px solid black;
     outline: .1em solid black;
     text-align: left;
 
     &:focus {
-        background-color: rgb(236, 234, 234);
+    background-color: rgb(236, 234, 234);
     }
 }
 
@@ -67,7 +68,6 @@ textarea {
     width: 100%;
     max-width: 670px;
     height: 170px;
-
     resize: none;
 }
 
@@ -75,13 +75,11 @@ textarea {
 .form__email {
     width: 49%;
     border: none;
-    // outline: 1px solid yellow;
 }
 
 .form__title {
     width: 100%;
 }
-
 
 .feedback__title {
     margin-bottom: 30px;
@@ -94,7 +92,7 @@ textarea {
     width: 100%;
     max-width: 560px;
     margin: 0 auto 30px;
-    font-family: 'Nunito Sans';
+    font-family: "Raleway", sans-serif;
     font-weight: 600;
     color: #787878;
 }
@@ -103,16 +101,15 @@ textarea {
     width: 100%;
     padding: 20px;
     border: none;
-    // background-color: rgb(236, 234, 234);
     background-color: rgb(255, 255, 50);
     outline: .1em solid black;
 
     &:active {
-        background-color: rgb(206, 201, 201);
+    background-color: rgb(206, 201, 201);
     }
 
     &:hover {
-        cursor: pointer;
-        background-color: rgb(206, 201, 201);
+    cursor: pointer;
+    background-color: rgb(206, 201, 201);
     }
 }
