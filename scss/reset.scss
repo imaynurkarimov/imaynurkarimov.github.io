@@ -1,6 +1,7 @@
 /* General */
 body {
     width: 100%;
+    min-height: -webkit-fill-available;
     height: 100%;
     display: flex;
     justify-content: center;
